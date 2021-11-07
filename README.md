@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cooltaher.github.io/3-ColumnPreviewCard/)
-- Live Site URL: [Add live site URL here](https://cooltaher.github.io/3-ColumnPreviewCard/)
+- Solution URL: [https://cooltaher.github.io/3-ColumnPreviewCard/]()
+- Live Site URL: [https://cooltaher.github.io/3-ColumnPreviewCard/]()
 
 ## My process
 
