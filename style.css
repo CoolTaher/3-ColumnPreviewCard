@@ -1,0 +1,138 @@
+body{
+    background-color:hsl(0, 0%, 95%) ;
+}
+
+/* main layout content  */
+.main-card{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    border: 2px solid transparent;
+    width: 65rem;
+    height: 25rem;
+}
+#Sedans{
+    background-color:hsl(31, 77%, 52%) ;
+    text-align: left;
+    padding: 0px 20px 0px 35px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 101%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+#SUVs{
+    background: hsl(184, 100%, 22%);
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 101%;
+ 
+}
+#Luxury{
+    background-color: hsl(179, 100%, 13%);
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 101%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.allimg{
+    margin-top: 3rem;
+}
+h1{
+    font-size: 34px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+    margin-left: 1rem;
+}
+p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 1rem;
+    text-align: center;
+    padding: 13px 24px ;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 25px;
+    border: transparent;
+     font-weight: bold;
+     
+}
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+#btn2{
+    color:hsl(184, 100%, 22%) ;
+}
+#btn3{
+    color: hsl(179, 100%, 13%);
+}
+    
+#btn1:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;   
+}
+#btn2:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;   
+}
+#btn3:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;   
+}
+/* responsiveness  */
+@media screen and (max-width:480px){
+    body{
+        overflow: auto;
+    }
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        height: 85rem;
+        width: auto;
+        margin-top: 2rem;
+    }
+    .allimg{
+        height: auto;
+        width: auto;
+    }
+    p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 15px 40px 15px 40px;
+        margin-left: 1rem;
+    }
+}
+/* Attribution */
+.attribution{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    
+}
+a{
+    color: teal;
+}
